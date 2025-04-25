@@ -1,0 +1,41 @@
+/* Estilizando o formulário */
+form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+/* Estilizando o label */
+label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block;
+}
+
+/* Estilizando o input */
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilizando o botão */
+input[type="submit"] {
+    background-color: #52124c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #504346;
+}
